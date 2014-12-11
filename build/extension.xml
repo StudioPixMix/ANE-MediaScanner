@@ -1,0 +1,27 @@
+<extension xmlns="http://ns.adobe.com/air/extension/3.5">
+	<id>com.studiopixmix.MediaScanner</id>
+	<versionNumber>1.0.0</versionNumber>
+	<platforms>
+		
+		<platform name="Android-ARM">
+			<applicationDeployment>
+				<nativeLibrary>MediaScanner.jar</nativeLibrary>
+				<initializer>com.studiopixmix.MediaScannerExtension</initializer>
+				<finalizer>com.studiopixmix.MediaScannerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		
+		<platform name="Android-x86">
+			<applicationDeployment>
+				<nativeLibrary>MediaScanner.jar</nativeLibrary>
+				<initializer>com.studiopixmix.MediaScannerExtension</initializer>
+				<finalizer>com.studiopixmix.MediaScannerExtension</finalizer>
+			</applicationDeployment>
+		</platform>
+		
+		<platform name="default">
+			<applicationDeployment/>
+		</platform>
+		
+	</platforms>
+</extension>
